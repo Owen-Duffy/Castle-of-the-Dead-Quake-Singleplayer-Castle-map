@@ -3844,149 +3844,439 @@
 {
 "classname" "monster_knight"
 "origin" "224 496 2152"
+"target" "ct1"
+"targetname" ""
 }
 // entity 189
 {
 "classname" "monster_knight"
 "origin" "224 536 2152"
+"target" "ct1"
+"targetname" ""
 }
 // entity 190
 {
 "classname" "monster_knight"
-"origin" "264 496 2152"
+"origin" "296 496 2152"
+"targetname" ""
+"target" "counter2"
 }
 // entity 191
 {
 "classname" "monster_knight"
-"origin" "264 536 2152"
+"origin" "296 536 2152"
+"targetname" ""
+"target" "counter2"
 }
 // entity 192
 {
 "classname" "monster_knight"
 "origin" "224 616 2152"
+"target" "ct1"
+"targetname" ""
 }
 // entity 193
 {
 "classname" "monster_knight"
 "origin" "224 576 2152"
+"target" "ct1"
+"targetname" ""
 }
 // entity 194
 {
 "classname" "monster_knight"
-"origin" "264 576 2152"
+"origin" "296 576 2152"
+"targetname" ""
+"target" "counter2"
 }
 // entity 195
 {
 "classname" "monster_knight"
-"origin" "264 616 2152"
+"origin" "296 616 2152"
+"targetname" ""
+"target" "counter2"
 }
 // entity 196
 {
 "classname" "monster_hell_knight"
 "origin" "224 680 2152"
+"target" "ct1"
+"targetname" ""
 }
 // entity 197
 {
 "classname" "monster_hell_knight"
 "origin" "224 728 2152"
+"target" "ct1"
+"targetname" ""
 }
 // entity 198
 {
 "classname" "monster_hell_knight"
-"origin" "272 728 2152"
+"origin" "304 728 2152"
+"targetname" ""
+"target" "counter2"
 }
 // entity 199
 {
 "classname" "monster_hell_knight"
-"origin" "272 680 2152"
+"origin" "304 680 2152"
+"targetname" ""
+"target" "counter2"
 }
 // entity 200
 {
 "classname" "monster_knight"
 "origin" "368 496 2152"
+"target" "counter3"
 }
 // entity 201
 {
 "classname" "monster_knight"
 "origin" "368 536 2152"
+"target" "counter3"
 }
 // entity 202
 {
 "classname" "monster_knight"
 "origin" "368 576 2152"
+"target" "counter3"
 }
 // entity 203
 {
-"classname" "monster_knight"
-"origin" "368 616 2152"
+"classname" "monster_hell_knight"
+"origin" "368 680 2152"
+"target" "counter3"
 }
 // entity 204
 {
 "classname" "monster_hell_knight"
-"origin" "368 680 2152"
+"origin" "368 728 2152"
+"target" "counter3"
 }
 // entity 205
 {
 "classname" "monster_hell_knight"
-"origin" "368 728 2152"
+"origin" "440 728 2152"
+"target" "counter4"
 }
 // entity 206
 {
 "classname" "monster_hell_knight"
-"origin" "416 728 2152"
+"origin" "440 680 2152"
+"target" "counter4"
 }
 // entity 207
 {
-"classname" "monster_hell_knight"
-"origin" "416 680 2152"
+"classname" "monster_shalrath"
+"origin" "264 1120 2152"
+"target" "counter6"
 }
 // entity 208
 {
-"classname" "monster_shalrath"
-"origin" "264 1120 2152"
+"classname" "monster_wizard"
+"origin" "264 1488 2240"
+"target" "counter7"
 }
 // entity 209
 {
 "classname" "monster_wizard"
-"origin" "264 1488 2240"
+"origin" "264 1416 2240"
+"target" "counter7"
 }
 // entity 210
 {
 "classname" "monster_wizard"
-"origin" "264 1416 2240"
+"origin" "336 1448 2240"
+"target" "counter7"
 }
 // entity 211
 {
-"classname" "monster_wizard"
-"origin" "336 1448 2240"
+"classname" "monster_hell_knight"
+"origin" "440 632 2152"
+"target" "counter4"
 }
 // entity 212
 {
 "classname" "monster_hell_knight"
-"origin" "416 632 2152"
+"origin" "440 584 2152"
+"target" "counter4"
 }
 // entity 213
 {
-"classname" "monster_hell_knight"
-"origin" "416 584 2152"
+"classname" "monster_zombie"
+"origin" "512 720 2152"
+"target" "counter5"
 }
 // entity 214
 {
 "classname" "monster_zombie"
-"origin" "512 720 2152"
+"origin" "512 672 2152"
+"target" "counter5"
 }
 // entity 215
 {
 "classname" "monster_zombie"
-"origin" "512 672 2152"
+"origin" "512 624 2152"
+"target" "counter5"
 }
 // entity 216
 {
 "classname" "monster_zombie"
-"origin" "512 624 2152"
+"origin" "512 576 2152"
+"target" "counter5"
 }
 // entity 217
 {
-"classname" "monster_zombie"
-"origin" "512 576 2152"
+"classname" "trigger_counter"
+"origin" "224 824 2136"
+"targetname" "counter1"
+"target" "spawn1"
+}
+// entity 218
+{
+"classname" "monster_hell_knight"
+"origin" "368 632 2152"
+"target" "counter3"
+}
+// entity 219
+{
+"classname" "trigger_counter"
+"origin" "304 824 2136"
+"targetname" "counter2"
+}
+// entity 220
+{
+"classname" "trigger_counter"
+"origin" "376 824 2136"
+"targetname" "counter3"
+}
+// entity 221
+{
+"classname" "trigger_counter"
+"origin" "440 824 2136"
+"targetname" "counter4"
+}
+// entity 222
+{
+"classname" "trigger_counter"
+"origin" "504 824 2136"
+"targetname" "counter5"
+}
+// entity 223
+{
+"classname" "trigger_counter"
+"origin" "336 1112 2136"
+"targetname" "counter6"
+}
+// entity 224
+{
+"classname" "trigger_counter"
+"origin" "272 1472 2136"
+"targetname" "counter7"
+}
+// entity 225
+{
+"classname" "trigger_relay"
+"origin" "224 856 2136"
+"targetname" "spawn1"
+"target" "spawn2"
+}
+// entity 226
+{
+"classname" "trigger_relay"
+"origin" "304 856 2136"
+}
+// entity 227
+{
+"classname" "trigger_relay"
+"origin" "376 856 2136"
+}
+// entity 228
+{
+"classname" "trigger_relay"
+"origin" "440 856 2136"
+}
+// entity 229
+{
+"classname" "trigger_relay"
+"origin" "504 856 2136"
+}
+// entity 230
+{
+"classname" "trigger_relay"
+"origin" "336 1152 2136"
+}
+// entity 231
+{
+"classname" "trigger_relay"
+"origin" "272 1520 2136"
+}
+// entity 232
+{
+"classname" "trigger_teleport"
+"origin" "264 1120 2160"
+}
+// entity 233
+{
+"classname" "trigger_teleport"
+"origin" "240 728 2160"
+"targetname" "spawn1"
+}
+// entity 234
+{
+"classname" "trigger_teleport"
+"origin" "240 680 2160"
+"targetname" "spawn1"
+}
+// entity 235
+{
+"classname" "trigger_teleport"
+"origin" "240 616 2160"
+"targetname" "spawn1"
+}
+// entity 236
+{
+"classname" "trigger_teleport"
+"origin" "240 576 2160"
+"targetname" "spawn1"
+}
+// entity 237
+{
+"classname" "trigger_teleport"
+"origin" "240 536 2160"
+"targetname" "spawn1"
+}
+// entity 238
+{
+"classname" "trigger_teleport"
+"origin" "240 496 2160"
+"targetname" "spawn1"
+}
+// entity 239
+{
+"classname" "trigger_teleport"
+"origin" "312 496 2160"
+}
+// entity 240
+{
+"classname" "trigger_teleport"
+"origin" "312 536 2160"
+}
+// entity 241
+{
+"classname" "trigger_teleport"
+"origin" "312 576 2160"
+}
+// entity 242
+{
+"classname" "trigger_teleport"
+"origin" "312 616 2160"
+}
+// entity 243
+{
+"classname" "trigger_teleport"
+"origin" "320 680 2160"
+}
+// entity 244
+{
+"classname" "trigger_teleport"
+"origin" "320 728 2160"
+}
+// entity 245
+{
+"classname" "trigger_teleport"
+"origin" "384 728 2160"
+}
+// entity 246
+{
+"classname" "trigger_teleport"
+"origin" "384 680 2160"
+}
+// entity 247
+{
+"classname" "trigger_teleport"
+"origin" "384 632 2160"
+}
+// entity 248
+{
+"classname" "trigger_teleport"
+"origin" "384 576 2160"
+}
+// entity 249
+{
+"classname" "trigger_teleport"
+"origin" "384 536 2160"
+}
+// entity 250
+{
+"classname" "trigger_teleport"
+"origin" "384 496 2160"
+}
+// entity 251
+{
+"classname" "trigger_teleport"
+"origin" "464 584 2160"
+}
+// entity 252
+{
+"classname" "trigger_teleport"
+"origin" "464 632 2160"
+}
+// entity 253
+{
+"classname" "trigger_teleport"
+"origin" "464 688 2160"
+}
+// entity 254
+{
+"classname" "trigger_teleport"
+"origin" "464 728 2160"
+}
+// entity 255
+{
+"classname" "trigger_teleport"
+"origin" "528 720 2160"
+}
+// entity 256
+{
+"classname" "trigger_teleport"
+"origin" "528 672 2160"
+}
+// entity 257
+{
+"classname" "trigger_teleport"
+"origin" "528 624 2160"
+}
+// entity 258
+{
+"classname" "trigger_teleport"
+"origin" "528 576 2160"
+}
+// entity 259
+{
+"classname" "trigger_teleport"
+"origin" "352 1448 2240"
+}
+// entity 260
+{
+"classname" "trigger_teleport"
+"origin" "344 1448 2240"
+}
+// entity 261
+{
+"classname" "trigger_teleport"
+"origin" "280 1416 2240"
+}
+// entity 262
+{
+"classname" "trigger_teleport"
+"origin" "280 1480 2240"
+}
+// entity 263
+{
+"classname" "info_teleport_destination"
+"origin" "-1872 1320 368"
+"angle" "0"
+"targetname" "tele1"
 }

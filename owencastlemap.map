@@ -2987,7 +2987,7 @@
 "classname" "path_corner"
 "origin" "-2016 1880 328"
 "targetname" "pathF2"
-"target" "pathF1"
+"target" "pathF3"
 }
 // entity 68
 {
@@ -3586,6 +3586,7 @@
 "origin" "-1760 1952 -280"
 "angle" "90"
 "targetname" "bossSquad2"
+"target" "shamblerbossdoor"
 }
 // entity 143
 {
@@ -4005,14 +4006,14 @@
 {
 "classname" "monster_hell_knight"
 "origin" "440 728 2152"
-"target" "ct4"
+"target" ""
 "spawnflags" "1"
 }
 // entity 206
 {
 "classname" "monster_hell_knight"
 "origin" "440 680 2152"
-"target" "ct4"
+"target" ""
 "spawnflags" "1"
 }
 // entity 207
@@ -4047,43 +4048,47 @@
 {
 "classname" "monster_hell_knight"
 "origin" "440 632 2152"
-"target" "ct4"
+"target" ""
 "spawnflags" "1"
 }
 // entity 212
 {
 "classname" "monster_hell_knight"
 "origin" "440 584 2152"
-"target" "ct4"
+"target" ""
 "spawnflags" "1"
 }
 // entity 213
 {
 "classname" "monster_zombie"
 "origin" "512 720 2152"
-"target" "ct5"
-"spawnflags" "1"
+"target" ""
+"spawnflags" "0"
+"angle" ""
 }
 // entity 214
 {
 "classname" "monster_zombie"
 "origin" "512 672 2152"
-"target" "ct5"
-"spawnflags" "1"
+"target" ""
+"spawnflags" "0"
+"angle" ""
 }
 // entity 215
 {
 "classname" "monster_zombie"
 "origin" "512 624 2152"
-"target" "ct5"
-"spawnflags" "1"
+"target" ""
+"spawnflags" "0"
+"angle" ""
 }
 // entity 216
 {
 "classname" "monster_zombie"
 "origin" "512 576 2152"
-"target" "ct5"
-"spawnflags" "1"
+"target" ""
+"spawnflags" "0"
+"angle" ""
 }
 // entity 217
 {
@@ -4554,4 +4559,36 @@
 "targetname" "DHswitchCT"
 "count" "2"
 "target" "DHdoor"
+}
+// entity 279
+{
+"classname" "trigger_counter"
+"origin" "-1704 2200 -56"
+"targetname" "shamblerbossdoor"
+"count" "1"
+"target" "finaldoor"
+"message" ""
+}
+// entity 280
+{
+"classname" "func_door"
+"lip" "20"
+"targetname" "finaldoor"
+"wait" "-1"
+// brush 0
+{
+( -1824 2504 -304 ) ( -1824 2505 -304 ) ( -1824 2504 -303 ) 64_brown_3 [ 0 -1 0 -8 ] [ 0 0 -1 0 ] 0 1 1
+( -1808 2504 -304 ) ( -1808 2504 -303 ) ( -1807 2504 -304 ) 64_brown_3 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1808 2504 -304 ) ( -1807 2504 -304 ) ( -1808 2505 -304 ) 64_brown_3 [ -1 0 0 0 ] [ 0 -1 0 -8 ] 0 1 1
+( -1776 2520 -128 ) ( -1776 2521 -128 ) ( -1775 2520 -128 ) 64_brown_3 [ 1 0 0 0 ] [ 0 -1 0 -8 ] 0 1 1
+( -1776 2520 -288 ) ( -1775 2520 -288 ) ( -1776 2520 -287 ) 64_brown_3 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1696 2520 -288 ) ( -1696 2520 -287 ) ( -1696 2521 -288 ) 64_brown_3 [ 0 1 0 8 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 281
+{
+"classname" "path_corner"
+"origin" "-1304 824 328"
+"target" "pathF1"
+"targetname" "pathF3"
 }
