@@ -4,7 +4,7 @@
 {
 "mapversion" "220"
 "classname" "worldspawn"
-"wad" "C:/Users/otd43/QuakeDev/wads/prototype_1_3.wad;C:/Users/otd43/QuakeDev/wads/id1.wad"
+"wad" "C:/Users/otd43/QuakeDev/wads/prototype_1_3.wad;C:/Users/otd43/QuakeDev/wads/id1.wad;C:/Users/otd43/QuakeDev/wads/devqtex_v2.wad"
 // brush 0
 {
 ( -4304 -16 -336 ) ( -4304 -15 -336 ) ( -4304 -16 -335 ) 128_blood_2 [ 0 -1 0 48 ] [ 0 0 -1 -64 ] 0 1 1
@@ -2204,65 +2204,85 @@
 "classname" "monster_zombie"
 "origin" "-240 -592 248"
 "angle" "90"
+"target" "pathZ1"
+"targetname" "zombos"
 }
 // entity 3
 {
 "classname" "monster_zombie"
 "origin" "-304 736 248"
 "angle" "90"
+"targetname" "zombos"
+"target" "pathZ1"
 }
 // entity 4
 {
 "classname" "monster_zombie"
 "origin" "-336 1952 248"
 "angle" "270"
+"target" "pathZ4"
+"targetname" "zombos"
 }
 // entity 5
 {
 "classname" "monster_zombie"
 "origin" "-224 3472 248"
 "angle" "270"
+"target" "pathZ3"
+"targetname" "zombos"
 }
 // entity 6
 {
 "classname" "monster_zombie"
 "origin" "-4624 3408 248"
 "angle" "0"
+"targetname" "zombos"
+"target" "pathZ8"
 }
 // entity 7
 {
 "classname" "monster_zombie"
 "origin" "-4688 1872 248"
 "angle" "0"
+"targetname" "zombos"
+"target" "pathZ9"
 }
 // entity 8
 {
 "classname" "monster_zombie"
 "origin" "-4512 -256 248"
 "angle" "0"
+"target" "pathZ8"
 }
 // entity 9
 {
 "classname" "monster_zombie"
 "origin" "-3968 -1440 248"
 "angle" "0"
+"target" "pathZ5"
+"targetname" "zombos"
 }
 // entity 10
 {
 "classname" "monster_zombie"
 "origin" "-2624 -1392 248"
 "angle" "0"
+"target" "pathZ5"
+"targetname" "zombos"
 }
 // entity 11
 {
 "classname" "monster_zombie"
 "origin" "-960 -1392 248"
 "angle" "0"
+"targetname" "zombos"
+"target" "pathZ5"
 }
 // entity 12
 {
 "classname" "weapon_supershotgun"
 "origin" "-4784 448 224"
+"target" "zombos"
 }
 // entity 13
 {
@@ -2278,121 +2298,169 @@
 {
 "classname" "monster_fish"
 "origin" "-4160 4000 -104"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 16
 {
 "classname" "monster_fish"
 "origin" "-4160 4208 -104"
+"target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 17
 {
 "classname" "monster_fish"
-"origin" "-3376 4016 -104"
+"origin" "-3504 4080 -104"
+"target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 18
 {
 "classname" "monster_fish"
-"origin" "-3376 4224 -104"
+"origin" "-3256 4256 -104"
+"target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 19
 {
 "classname" "monster_fish"
-"origin" "-2688 4256 -104"
+"origin" "-2688 4208 -104"
+"target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 20
 {
 "classname" "monster_fish"
-"origin" "-2688 4048 -104"
+"origin" "-2504 4056 -104"
+"target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 21
 {
 "classname" "monster_fish"
-"origin" "-2000 4032 -104"
+"origin" "-1896 4048 -104"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 22
 {
 "classname" "monster_fish"
-"origin" "-2000 4240 -104"
+"origin" "-2000 4264 -104"
+"targetname" "fishbone"
+"target" "pathRF1"
 }
 // entity 23
 {
 "classname" "monster_fish"
-"origin" "-1296 4016 -104"
+"origin" "-1296 3984 -104"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 24
 {
 "classname" "monster_fish"
-"origin" "-1296 4224 -104"
+"origin" "-1272 4224 -104"
+"targetname" "fishbone"
+"target" "pathRF1"
 }
 // entity 25
 {
 "classname" "monster_fish"
-"origin" "-720 4048 -104"
+"origin" "-720 4016 -104"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 26
 {
 "classname" "monster_fish"
-"origin" "-720 4256 -104"
+"origin" "-672 4256 -104"
+"targetname" "fishbone"
+"target" "pathRF2"
 }
 // entity 27
 {
 "classname" "monster_fish"
-"origin" "-720 4048 120"
+"origin" "-760 4016 120"
+"targetname" "fishbone"
+"target" "pathRF2"
 }
 // entity 28
 {
 "classname" "monster_fish"
-"origin" "-720 4256 120"
+"origin" "-784 4256 120"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 29
 {
 "classname" "monster_fish"
-"origin" "-1296 4224 120"
+"origin" "-1192 4256 120"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 30
 {
 "classname" "monster_fish"
-"origin" "-1296 4016 120"
+"origin" "-1296 4040 120"
+"targetname" "fishbone"
+"target" "pathRF1"
 }
 // entity 31
 {
 "classname" "monster_fish"
-"origin" "-2000 4032 120"
+"origin" "-1936 3968 120"
+"targetname" "fishbone"
+"target" "pathRF1"
 }
 // entity 32
 {
 "classname" "monster_fish"
-"origin" "-2000 4240 120"
+"origin" "-2032 4240 120"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 33
 {
 "classname" "monster_fish"
-"origin" "-2688 4048 120"
+"origin" "-2744 3992 120"
+"target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 34
 {
 "classname" "monster_fish"
-"origin" "-2688 4256 120"
+"origin" "-2832 4288 120"
+"target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 35
 {
 "classname" "monster_fish"
-"origin" "-3376 4224 120"
+"origin" "-3456 4256 120"
+"target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 36
 {
 "classname" "monster_fish"
-"origin" "-3376 4016 120"
+"origin" "-3400 3992 120"
+"target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 37
 {
 "classname" "monster_fish"
 "origin" "-4160 4000 120"
+"targetname" "fishbone"
+"target" "pathRF2"
 }
 // entity 38
 {
 "classname" "monster_fish"
-"origin" "-4160 4208 120"
+"origin" "-4160 4256 120"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 39
 {
@@ -2433,11 +2501,6 @@
 }
 // entity 41
 {
-"classname" "weapon_rocketlauncher"
-"origin" "-144 1376 224"
-}
-// entity 42
-{
 "classname" "func_button"
 "lip" "4"
 "angle" "90"
@@ -2455,7 +2518,7 @@
 ( -4056 -1248 280 ) ( -4056 -1249 280 ) ( -4056 -1248 281 ) 128_blood_3 [ 1.8369701987210297e-16 1 0 0 ] [ 0 0 -1 -24 ] 0 1 1
 }
 }
-// entity 43
+// entity 42
 {
 "classname" "func_button"
 "lip" "4"
@@ -2474,7 +2537,7 @@
 ( -4304 1960 264 ) ( -4304 1959 264 ) ( -4304 1960 265 ) 128_blood_3 [ 1.224646799147353e-16 1 0 -104 ] [ 0 0 -1 -24 ] 0 1 1
 }
 }
-// entity 44
+// entity 43
 {
 "classname" "func_button"
 "lip" "4"
@@ -2493,7 +2556,7 @@
 ( -1504 3888 -32 ) ( -1504 3888 -31 ) ( -1504 3889 -32 ) 128_blood_3 [ 6.123233995736764e-17 1 0 96 ] [ 0 0 -1 -64 ] 0 1 1
 }
 }
-// entity 45
+// entity 44
 {
 "classname" "func_door"
 "targetname" "door1"
@@ -2507,7 +2570,7 @@
 ( -750 1240 32 ) ( -750 1240 33 ) ( -750 1241 32 ) adoor02_2 [ 6.123233995736766e-17 1 -7.34788079488412e-16 -57.333374 ] [ 0 -7.34788079488412e-16 -1 21.333344 ] 0 1.5 1.5
 }
 }
-// entity 46
+// entity 45
 {
 "classname" "func_door"
 "targetname" "door1"
@@ -2521,7 +2584,7 @@
 ( -750 1240 32 ) ( -750 1240 33 ) ( -750 1241 32 ) adoor02_2 [ 6.123233995736766e-17 1 -7.34788079488412e-16 -57.333374 ] [ 0 -7.34788079488412e-16 -1 21.333344 ] 0 1.5 1.5
 }
 }
-// entity 47
+// entity 46
 {
 "classname" "func_door"
 // brush 0
@@ -2534,7 +2597,7 @@
 ( -2270 1240 96 ) ( -2270 1240 97 ) ( -2270 1241 96 ) adoor02_2 [ 6.123233995736766e-17 1 -7.34788079488412e-16 -57.333374 ] [ 0 -7.34788079488412e-16 -1 64 ] 0 1.5 1.5
 }
 }
-// entity 48
+// entity 47
 {
 "classname" "func_door"
 // brush 0
@@ -2547,7 +2610,7 @@
 ( -2270 1240 96 ) ( -2270 1240 97 ) ( -2270 1241 96 ) adoor02_2 [ 6.123233995736766e-17 1 -7.34788079488412e-16 -57.333374 ] [ 0 -7.34788079488412e-16 -1 64 ] 0 1.5 1.5
 }
 }
-// entity 49
+// entity 48
 {
 "classname" "func_button"
 "lip" "4"
@@ -2566,7 +2629,7 @@
 ( -4216 48 440 ) ( -4216 48 441 ) ( -4216 49 440 ) 128_blood_3 [ 2.4492935982947064e-16 1 0 -32 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 50
+// entity 49
 {
 "classname" "func_button"
 "lip" "4"
@@ -2585,7 +2648,7 @@
 ( -4216 2480 440 ) ( -4216 2480 441 ) ( -4216 2481 440 ) 128_blood_3 [ 2.4492935982947064e-16 1 0 -32 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 51
+// entity 50
 {
 "classname" "func_door"
 // brush 0
@@ -2598,7 +2661,7 @@
 ( -3246 1240 -208 ) ( -3246 1240 -207 ) ( -3246 1241 -208 ) adoor02_2 [ 6.123233995736766e-17 1 -7.34788079488412e-16 -57.333374 ] [ 0 -7.34788079488412e-16 -1 -138.66667 ] 0 1.5 1.5
 }
 }
-// entity 52
+// entity 51
 {
 "classname" "func_door"
 // brush 0
@@ -2611,7 +2674,7 @@
 ( -3246 1240 -208 ) ( -3246 1240 -207 ) ( -3246 1241 -208 ) adoor02_2 [ 6.123233995736766e-17 1 -7.34788079488412e-16 -57.333374 ] [ 0 -7.34788079488412e-16 -1 -138.66667 ] 0 1.5 1.5
 }
 }
-// entity 53
+// entity 52
 {
 "classname" "func_door"
 // brush 0
@@ -2624,7 +2687,7 @@
 ( -2270 1696 576 ) ( -2270 1696 577 ) ( -2270 1697 576 ) adoor02_2 [ 6.123233995736766e-17 1 -7.34788079488412e-16 -105.333374 ] [ 0 -7.34788079488412e-16 -1 0 ] 0 1.5 1.5
 }
 }
-// entity 54
+// entity 53
 {
 "classname" "func_door"
 // brush 0
@@ -2637,84 +2700,238 @@
 ( -2270 1696 576 ) ( -2270 1696 577 ) ( -2270 1697 576 ) adoor02_2 [ 6.123233995736766e-17 1 -7.34788079488412e-16 -105.333374 ] [ 0 -7.34788079488412e-16 -1 0 ] 0 1.5 1.5
 }
 }
-// entity 55
+// entity 54
 {
 "classname" "item_key1"
 "origin" "-4112 2000 408"
 }
-// entity 56
+// entity 55
 {
 "classname" "item_key2"
 "origin" "-832 -160 888"
 }
-// entity 57
+// entity 56
 {
 "classname" "item_health"
 "origin" "-736 1888 864"
 }
-// entity 58
+// entity 57
 {
 "classname" "item_health"
 "origin" "-736 1664 864"
 }
-// entity 59
+// entity 58
 {
 "classname" "weapon_nailgun"
 "origin" "-1168 1344 320"
 "target" "knightsf1"
 }
-// entity 60
+// entity 59
 {
 "classname" "item_spikes"
 "origin" "-1184 1392 320"
 }
-// entity 61
+// entity 60
 {
 "classname" "item_spikes"
 "origin" "-1184 1264 320"
 }
-// entity 62
+// entity 61
 {
 "classname" "monster_knight"
 "origin" "-2016 768 344"
 "angle" "90"
 "targetname" "knightsf1"
-"target" "path1"
+"target" "pathF1"
 }
-// entity 63
+// entity 62
 {
 "classname" "monster_knight"
 "origin" "-2016 1936 344"
 "angle" "270"
 "targetname" "knightsf1"
+"target" "pathF2"
 }
-// entity 64
+// entity 63
 {
 "classname" "weapon_supernailgun"
 "origin" "-4080 3600 864"
 }
-// entity 65
+// entity 64
 {
 "classname" "item_spikes"
 "origin" "-4096 3744 864"
 }
-// entity 66
+// entity 65
 {
 "classname" "item_health"
 "origin" "-4224 3712 864"
 }
-// entity 67
+// entity 66
 {
 "classname" "item_armor1"
 "origin" "-2640 3728 864"
 }
-// entity 68
+// entity 67
 {
 "classname" "path_corner"
 "origin" "-2016 824 328"
+"target" "pathF2"
+"targetname" "pathF1"
+}
+// entity 68
+{
+"classname" "path_corner"
+"origin" "-2016 1880 328"
+"targetname" "pathF2"
+"target" "pathF1"
 }
 // entity 69
 {
 "classname" "path_corner"
-"origin" "-2016 1880 328"
+"origin" "-960 4160 -8"
+"target" "pathRF1"
+"targetname" "pathRF2"
+}
+// entity 70
+{
+"classname" "path_corner"
+"origin" "-4120 4128 8"
+"targetname" "pathRF1"
+"spawnflags" "0"
+"target" "pathRF2"
+}
+// entity 71
+{
+"classname" "trigger_once"
+"target" "fishbone"
+// brush 0
+{
+( -4304 4176 448 ) ( -4304 4177 448 ) ( -4304 4176 449 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 -96 ] 0 1 1
+( -4360 3888 448 ) ( -4360 3888 449 ) ( -4359 3888 448 ) trigger [ 1 0 0 8 ] [ 0 0 -1 -96 ] 0 1 1
+( -4360 4176 224 ) ( -4359 4176 224 ) ( -4360 4177 224 ) trigger [ -1 0 0 -8 ] [ 0 -1 0 0 ] 0 1 1
+( -4272 4200 352 ) ( -4272 4201 352 ) ( -4271 4200 352 ) trigger [ 1 0 0 8 ] [ 0 -1 0 0 ] 0 1 1
+( -4272 4352 456 ) ( -4271 4352 456 ) ( -4272 4352 457 ) trigger [ -1 0 0 -8 ] [ 0 0 -1 -96 ] 0 1 1
+( -4248 4200 456 ) ( -4248 4200 457 ) ( -4248 4201 456 ) trigger [ 0 1 0 0 ] [ 0 0 -1 -32 ] 0 1 1
+}
+}
+// entity 72
+{
+"classname" "trigger_once"
+"target" "fishbone"
+// brush 0
+{
+( -632 4176 448 ) ( -632 4177 448 ) ( -632 4176 449 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 -32 ] 0 1 1
+( -688 3888 448 ) ( -688 3888 449 ) ( -687 3888 448 ) trigger [ 1 0 0 -16 ] [ 0 0 -1 -32 ] 0 1 1
+( -688 4176 224 ) ( -687 4176 224 ) ( -688 4177 224 ) trigger [ -1 0 0 16 ] [ 0 -1 0 0 ] 0 1 1
+( -600 4200 352 ) ( -600 4201 352 ) ( -599 4200 352 ) trigger [ 1 0 0 -16 ] [ 0 -1 0 0 ] 0 1 1
+( -600 4352 456 ) ( -599 4352 456 ) ( -600 4352 457 ) trigger [ -1 0 0 16 ] [ 0 0 -1 -32 ] 0 1 1
+( -576 4200 456 ) ( -576 4200 457 ) ( -576 4201 456 ) trigger [ 0 1 0 0 ] [ 0 0 -1 -32 ] 0 1 1
+}
+}
+// entity 73
+{
+"classname" "path_corner"
+"origin" "-248 4168 232"
+"target" "pathZ2"
+"targetname" "pathZ1"
+"spawnflags" ""
+}
+// entity 74
+{
+"classname" "path_corner"
+"origin" "-56 3400 232"
+"target" "pathZ3"
+"targetname" "pathZ2"
+"spawnflags" ""
+}
+// entity 75
+{
+"classname" "path_corner"
+"origin" "-376 1608 232"
+"target" "pathZ4"
+"targetname" "pathZ3"
+"spawnflags" ""
+}
+// entity 76
+{
+"classname" "path_corner"
+"origin" "-56 264 232"
+"target" "pathZ5"
+"targetname" "pathZ4"
+"spawnflags" ""
+}
+// entity 77
+{
+"classname" "path_corner"
+"origin" "-248 -1464 232"
+"target" "pathZ6"
+"targetname" "pathZ5"
+"spawnflags" ""
+}
+// entity 78
+{
+"classname" "path_corner"
+"origin" "-1080 -1336 232"
+"target" "pathZ7"
+"targetname" "pathZ6"
+"spawnflags" ""
+}
+// entity 79
+{
+"classname" "path_corner"
+"origin" "-2552 -1528 232"
+"target" "pathZ8"
+"targetname" "pathZ7"
+"spawnflags" ""
+}
+// entity 80
+{
+"classname" "path_corner"
+"origin" "-4664 -1464 232"
+"target" "pathZ9"
+"targetname" "pathZ8"
+"spawnflags" ""
+}
+// entity 81
+{
+"classname" "path_corner"
+"origin" "-4664 4168 232"
+"target" "pathZ8"
+"targetname" "pathZ9"
+"spawnflags" ""
+}
+// entity 82
+{
+"classname" "path_corner"
+"origin" "-3784 -776 392"
+"targetname" "pathWW1"
+"target" "pathWW2"
+}
+// entity 83
+{
+"classname" "path_corner"
+"origin" "-3784 248 392"
+"targetname" "pathWW2"
+"target" "pathWW3"
+}
+// entity 84
+{
+"classname" "path_corner"
+"origin" "-1160 248 392"
+"targetname" "pathWW3"
+"target" "pathWW4"
+}
+// entity 85
+{
+"classname" "path_corner"
+"origin" "-1160 -776 392"
+"targetname" "pathWW4"
+"target" "pathWW1"
+}
+// entity 86
+{
+"classname" "monster_hell_knight"
+"origin" "-3792 -848 408"
+"angle" "90"
 }
