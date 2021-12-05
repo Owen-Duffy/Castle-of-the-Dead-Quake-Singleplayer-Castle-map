@@ -2657,3 +2657,30 @@
 "classname" "item_health"
 "origin" "-736 1664 864"
 }
+// entity 59
+{
+"classname" "weapon_nailgun"
+"origin" "-1168 1344 320"
+}
+// entity 60
+{
+"classname" "item_spikes"
+"origin" "-1184 1392 320"
+}
+// entity 61
+{
+"classname" "item_spikes"
+"origin" "-1184 1264 320"
+}
+// entity 62
+{
+"classname" "monster_knight"
+"origin" "-2016 816 344"
+"angle" "90"
+}
+// entity 63
+{
+"classname" "monster_knight"
+"origin" "-2016 1888 344"
+"angle" "270"
+}

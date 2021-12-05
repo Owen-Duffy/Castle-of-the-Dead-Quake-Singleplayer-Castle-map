@@ -3721,7 +3721,7 @@
 // entity 162
 {
 "classname" "item_shells"
-"origin" "-2400 592 384"
+"origin" "-2384 640 384"
 }
 // entity 163
 {
@@ -4093,7 +4093,7 @@
 {
 "classname" "trigger_teleport"
 "origin" "240 1152 2160"
-"targetname" ""
+"targetname" "spawn6"
 "target" "tele8"
 }
 // entity 219
@@ -4283,19 +4283,20 @@
 "classname" "trigger_teleport"
 "origin" "344 1448 2240"
 "target" "teleS3"
+"targetname" "spawn7"
 }
 // entity 246
 {
 "classname" "trigger_teleport"
 "origin" "280 1416 2240"
-"targetname" ""
+"targetname" "spawn7"
 "target" "teleS1"
 }
 // entity 247
 {
 "classname" "trigger_teleport"
 "origin" "280 1480 2240"
-"targetname" ""
+"targetname" "spawn7"
 "target" "teleS2"
 }
 // entity 248
@@ -4367,9 +4368,9 @@
 // entity 259
 {
 "classname" "info_teleport_destination"
-"origin" "-3776 2000 1168"
+"origin" "-3120 1824 1168"
 "targetname" "teleS1"
-"angle" "270"
+"angle" "180"
 }
 // entity 260
 {
@@ -4384,12 +4385,12 @@
 "map" "start"
 // brush 0
 {
-( -1888 2552 -304 ) ( -1888 2553 -304 ) ( -1888 2552 -303 ) trigger [ 0 -1 0 -16 ] [ 0 0 -1 0 ] 0 1 1
-( -1816 2544 -304 ) ( -1816 2544 -303 ) ( -1815 2544 -304 ) trigger [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -1816 2552 -304 ) ( -1815 2552 -304 ) ( -1816 2553 -304 ) trigger [ -1 0 0 0 ] [ 0 -1 0 -16 ] 0 1 1
-( -1800 2568 -104 ) ( -1800 2569 -104 ) ( -1799 2568 -104 ) trigger [ 1 0 0 0 ] [ 0 -1 0 -16 ] 0 1 1
-( -1800 2576 -296 ) ( -1799 2576 -296 ) ( -1800 2576 -295 ) trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
-( -1632 2568 -296 ) ( -1632 2568 -295 ) ( -1632 2569 -296 ) trigger [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 1 1
+( -2912 2664 -304 ) ( -2912 2665 -304 ) ( -2912 2664 -303 ) trigger [ 0 -1 0 32 ] [ 0 0 -1 0 ] 0 1 1
+( -1816 2656 -304 ) ( -1816 2656 -303 ) ( -1815 2656 -304 ) trigger [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -1816 2664 -304 ) ( -1815 2664 -304 ) ( -1816 2665 -304 ) trigger [ -1 0 0 0 ] [ 0 -1 0 32 ] 0 1 1
+( -1800 2680 48 ) ( -1800 2681 48 ) ( -1799 2680 48 ) trigger [ 1 0 0 0 ] [ 0 -1 0 32 ] 0 1 1
+( -1800 2688 -296 ) ( -1799 2688 -296 ) ( -1800 2688 -295 ) trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -608 2680 -296 ) ( -608 2680 -295 ) ( -608 2681 -296 ) trigger [ 0 1 0 -32 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
 // entity 262
@@ -4443,16 +4444,16 @@
 // entity 266
 {
 "classname" "info_teleport_destination"
-"origin" "-3696 2000 1168"
+"origin" "-3120 1664 1168"
 "targetname" "teleS2"
-"angle" "270"
+"angle" "180"
 }
 // entity 267
 {
 "classname" "info_teleport_destination"
-"origin" "-3744 1904 1168"
+"origin" "-3216 1744 1056"
 "targetname" "teleS3"
-"angle" "270"
+"angle" "180"
 }
 // entity 268
 {
@@ -4471,7 +4472,7 @@
 // entity 269
 {
 "classname" "trigger_once"
-"target" "spawn1"
+"target" "spawn5"
 // brush 0
 {
 ( -2432 -208 880 ) ( -2432 -207 880 ) ( -2432 -208 881 ) trigger [ 0 -1 0 48 ] [ 0 0 -1 48 ] 0 1 1
@@ -4485,7 +4486,7 @@
 // entity 270
 {
 "classname" "trigger_once"
-"target" "spawn1"
+"target" "spawn6"
 // brush 0
 {
 ( -2432 -208 896 ) ( -2432 -207 896 ) ( -2432 -208 897 ) trigger [ 0 -1 0 48 ] [ 0 0 -1 0 ] 0 1 1
@@ -4499,7 +4500,7 @@
 // entity 271
 {
 "classname" "trigger_once"
-"target" "spawn1"
+"target" "spawn7"
 // brush 0
 {
 ( -2432 -208 912 ) ( -2432 -207 912 ) ( -2432 -208 913 ) trigger [ 0 -1 0 48 ] [ 0 0 -1 16 ] 0 1 1
@@ -4509,4 +4510,29 @@
 ( -2384 -128 928 ) ( -2383 -128 928 ) ( -2384 -128 929 ) trigger [ -1 0 0 -16 ] [ 0 0 -1 16 ] 0 1 1
 ( -2384 -128 928 ) ( -2384 -128 929 ) ( -2384 -127 928 ) trigger [ 0 1 0 -48 ] [ 0 0 -1 16 ] 0 1 1
 }
+}
+// entity 272
+{
+"classname" "item_shells"
+"origin" "-864 2032 320"
+}
+// entity 273
+{
+"classname" "item_shells"
+"origin" "-816 1984 320"
+}
+// entity 274
+{
+"classname" "item_spikes"
+"origin" "-2032 640 320"
+}
+// entity 275
+{
+"classname" "item_spikes"
+"origin" "-2080 688 320"
+}
+// entity 276
+{
+"classname" "item_health"
+"origin" "-2064 1984 320"
 }
