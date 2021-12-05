@@ -3148,6 +3148,174 @@
 // entity 112
 {
 "classname" "monster_wizard"
-"origin" "-3792 3424 888"
+"origin" "-3216 3408 1368"
+"angle" "0"
+"targetname" "USgang"
+"target" "pathUS2"
+}
+// entity 113
+{
+"classname" "path_corner"
+"origin" "-3768 3416 1352"
+"targetname" "pathUS1"
+"target" "pathUS2"
+}
+// entity 114
+{
+"classname" "path_corner"
+"origin" "-2808 3416 1352"
+"targetname" "pathUS2"
+"target" "pathUS3"
+}
+// entity 115
+{
+"classname" "path_corner"
+"origin" "-3384 1896 1352"
+}
+// entity 116
+{
+"classname" "monster_wizard"
+"origin" "-2816 2688 1368"
 "angle" "270"
+"target" "pathUS3"
+"targetname" "USgang"
+}
+// entity 117
+{
+"classname" "monster_wizard"
+"origin" "-3776 2688 1368"
+"angle" "90"
+"targetname" "USgang"
+"target" "pathUS1"
+}
+// entity 118
+{
+"classname" "trigger_once"
+"target" "USgang"
+// brush 0
+{
+( -2496 1728 1136 ) ( -2496 1729 1136 ) ( -2496 1728 1137 ) trigger [ -6.123233995736766e-17 -1 0 32 ] [ 0 0 -1 -16 ] 0 1 1
+( -2464 1536 1104 ) ( -2465 1536 1104 ) ( -2464 1536 1105 ) trigger [ 1 -6.123233995736766e-17 0 32 ] [ 0 0 -1 -16 ] 0 1 1
+( -2464 1696 864 ) ( -2464 1697 864 ) ( -2465 1696 864 ) trigger [ -6.123233995736766e-17 -1 0 32 ] [ 1 -6.123233995736766e-17 0 32 ] 90 1 1
+( -2560 1728 1008 ) ( -2561 1728 1008 ) ( -2560 1729 1008 ) trigger [ 6.123233995736766e-17 1 0 -32 ] [ 1 -6.123233995736766e-17 0 32 ] 270 1 1
+( -2560 2048 1136 ) ( -2560 2048 1137 ) ( -2561 2048 1136 ) trigger [ -1 6.123233995736766e-17 0 -32 ] [ 0 0 -1 -16 ] 0 1 1
+( -2464 1696 1104 ) ( -2464 1696 1105 ) ( -2464 1697 1104 ) trigger [ 6.123233995736766e-17 1 0 -32 ] [ 0 0 -1 -16 ] 0 1 1
+}
+}
+// entity 119
+{
+"classname" "monster_shalrath"
+"origin" "-1520 -160 888"
+"angle" "180"
+"targetname" "VBossgang"
+}
+// entity 120
+{
+"classname" "path_corner"
+"origin" "-3768 3416 1352"
+"targetname" "pathUS1"
+"target" "pathUS2"
+}
+// entity 121
+{
+"classname" "path_corner"
+"origin" "-2456 216 1352"
+"targetname" "pathVB4"
+"target" "pathVB1"
+}
+// entity 122
+{
+"classname" "monster_wizard"
+"origin" "-2464 -320 1368"
+"angle" "90"
+"targetname" "VBossgang"
+"target" "pathVB4"
+}
+// entity 123
+{
+"classname" "monster_wizard"
+"origin" "-1904 208 1368"
+"angle" "0"
+"targetname" "VBossgang"
+"target" "pathVB1"
+"spawnflags" ""
+}
+// entity 124
+{
+"classname" "path_corner"
+"origin" "-1496 216 1352"
+"targetname" "pathVB2"
+"target" "pathVB1"
+}
+// entity 125
+{
+"classname" "monster_wizard"
+"origin" "-1504 -192 1368"
+"angle" "270"
+"target" "pathVB2"
+"targetname" "VBossgang"
+}
+// entity 126
+{
+"classname" "path_corner"
+"origin" "-1496 -584 1352"
+"targetname" "pathVB2"
+"target" "pathVB3"
+}
+// entity 127
+{
+"classname" "path_corner"
+"origin" "-2456 -584 1352"
+"targetname" "pathVB3"
+"target" "pathVB4"
+}
+// entity 128
+{
+"classname" "monster_wizard"
+"origin" "-1904 -576 1368"
+"angle" "180"
+"target" "pathVB3"
+"targetname" "VBossgang"
+}
+// entity 129
+{
+"classname" "monster_wizard"
+"origin" "-2464 0 1368"
+"angle" "90"
+"targetname" "VBossgang"
+"target" "pathVB4"
+}
+// entity 130
+{
+"classname" "trigger_once"
+"target" "USgang"
+// brush 0
+{
+( -3840 768 1136 ) ( -3840 768 1137 ) ( -3840 767 1136 ) trigger [ -1.2246467991473532e-16 -1 0 32 ] [ 0 0 -1 -16 ] 0 1 1
+( -3616 832 1136 ) ( -3617 832 1136 ) ( -3616 832 1137 ) trigger [ 1 -1.2246467991473532e-16 0 0 ] [ 0 0 -1 -16 ] 0 1 1
+( -3584 864 864 ) ( -3585 864 864 ) ( -3584 863 864 ) trigger [ 1 -1.2246467991473532e-16 0 0 ] [ 1.2246467991473532e-16 1 0 -32 ] 180 1 1
+( -3616 768 1008 ) ( -3616 767 1008 ) ( -3617 768 1008 ) trigger [ -1 1.2246467991473532e-16 0 0 ] [ 1.2246467991473532e-16 1 0 -32 ] 180 1 1
+( -3584 864 1104 ) ( -3584 864 1105 ) ( -3585 864 1104 ) trigger [ -1 1.2246467991473532e-16 0 0 ] [ 0 0 -1 -16 ] 0 1 1
+( -3584 864 1104 ) ( -3584 863 1104 ) ( -3584 864 1105 ) trigger [ 1.2246467991473532e-16 1 0 -32 ] [ 0 0 -1 -16 ] 0 1 1
+}
+}
+// entity 131
+{
+"classname" "path_corner"
+"origin" "-3368 -168 -296"
+}
+// entity 132
+{
+"classname" "path_corner"
+"origin" "-4008 -168 -296"
+}
+// entity 133
+{
+"classname" "path_corner"
+"origin" "-3368 1176 -296"
+}
+// entity 134
+{
+"classname" "path_corner"
+"origin" "-4008 1176 -296"
 }
