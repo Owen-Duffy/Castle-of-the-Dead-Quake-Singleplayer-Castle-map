@@ -2228,30 +2228,39 @@
 "classname" "monster_zombie"
 "origin" "-4624 3408 248"
 "angle" "0"
+"targetname" "zombos"
+"target" "pathZ8"
 }
 // entity 7
 {
 "classname" "monster_zombie"
 "origin" "-4688 1872 248"
 "angle" "0"
+"targetname" "zombos"
+"target" "pathZ9"
 }
 // entity 8
 {
 "classname" "monster_zombie"
 "origin" "-4512 -256 248"
 "angle" "0"
+"target" "pathZ8"
 }
 // entity 9
 {
 "classname" "monster_zombie"
 "origin" "-3968 -1440 248"
 "angle" "0"
+"target" "pathZ6"
+"targetname" "zombos"
 }
 // entity 10
 {
 "classname" "monster_zombie"
 "origin" "-2624 -1392 248"
 "angle" "0"
+"target" "pathZ5"
+"targetname" "zombos"
 }
 // entity 11
 {
@@ -2263,6 +2272,7 @@
 {
 "classname" "weapon_supershotgun"
 "origin" "-4784 448 224"
+"target" "zombos"
 }
 // entity 13
 {
@@ -2818,4 +2828,71 @@
 {
 "classname" "path_corner"
 "origin" "-248 4168 232"
+"target" "pathZ2"
+"targetname" "pathZ1"
+"spawnflags" ""
+}
+// entity 75
+{
+"classname" "path_corner"
+"origin" "-248 3400 232"
+"target" "pathZ3"
+"targetname" "pathZ2"
+"spawnflags" ""
+}
+// entity 76
+{
+"classname" "path_corner"
+"origin" "-248 1608 232"
+"target" "pathZ4"
+"targetname" "pathZ3"
+"spawnflags" ""
+}
+// entity 77
+{
+"classname" "path_corner"
+"origin" "-248 264 232"
+"target" "pathZ5"
+"targetname" "pathZ4"
+"spawnflags" ""
+}
+// entity 78
+{
+"classname" "path_corner"
+"origin" "-248 -1464 232"
+"target" "pathZ6"
+"targetname" "pathZ5"
+"spawnflags" ""
+}
+// entity 79
+{
+"classname" "path_corner"
+"origin" "-1080 -1336 232"
+"target" "pathZ7"
+"targetname" "pathZ6"
+"spawnflags" ""
+}
+// entity 80
+{
+"classname" "path_corner"
+"origin" "-2552 -1528 232"
+"target" "pathZ8"
+"targetname" "pathZ7"
+"spawnflags" ""
+}
+// entity 81
+{
+"classname" "path_corner"
+"origin" "-4664 -1464 232"
+"target" "pathZ9"
+"targetname" "pathZ8"
+"spawnflags" ""
+}
+// entity 82
+{
+"classname" "path_corner"
+"origin" "-4664 4168 232"
+"target" "pathZ8"
+"targetname" "pathZ9"
+"spawnflags" ""
 }

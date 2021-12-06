@@ -2278,121 +2278,143 @@
 {
 "classname" "monster_fish"
 "origin" "-4160 4000 -104"
+"target" "pathRF1"
 }
 // entity 16
 {
 "classname" "monster_fish"
 "origin" "-4160 4208 -104"
+"target" "pathRF2"
 }
 // entity 17
 {
 "classname" "monster_fish"
-"origin" "-3376 4016 -104"
+"origin" "-3504 4080 -104"
+"target" "pathRF2"
 }
 // entity 18
 {
 "classname" "monster_fish"
-"origin" "-3376 4224 -104"
+"origin" "-3256 4256 -104"
+"target" "pathRF2"
 }
 // entity 19
 {
 "classname" "monster_fish"
-"origin" "-2688 4256 -104"
+"origin" "-2688 4208 -104"
+"target" "pathRF2"
 }
 // entity 20
 {
 "classname" "monster_fish"
-"origin" "-2688 4048 -104"
+"origin" "-2504 4056 -104"
+"target" "pathRF2"
 }
 // entity 21
 {
 "classname" "monster_fish"
-"origin" "-2000 4032 -104"
+"origin" "-1896 4048 -104"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 22
 {
 "classname" "monster_fish"
-"origin" "-2000 4240 -104"
+"origin" "-2000 4264 -104"
+"targetname" "fishbone"
+"target" "pathRF1"
 }
 // entity 23
 {
 "classname" "monster_fish"
-"origin" "-1296 4016 -104"
+"origin" "-1296 3984 -104"
 }
 // entity 24
 {
 "classname" "monster_fish"
-"origin" "-1296 4224 -104"
+"origin" "-1272 4224 -104"
 }
 // entity 25
 {
 "classname" "monster_fish"
-"origin" "-720 4048 -104"
+"origin" "-720 4016 -104"
 }
 // entity 26
 {
 "classname" "monster_fish"
-"origin" "-720 4256 -104"
+"origin" "-672 4256 -104"
 }
 // entity 27
 {
 "classname" "monster_fish"
-"origin" "-720 4048 120"
+"origin" "-760 4016 120"
 }
 // entity 28
 {
 "classname" "monster_fish"
-"origin" "-720 4256 120"
+"origin" "-784 4256 120"
 }
 // entity 29
 {
 "classname" "monster_fish"
-"origin" "-1296 4224 120"
+"origin" "-1320 4224 120"
 }
 // entity 30
 {
 "classname" "monster_fish"
-"origin" "-1296 4016 120"
+"origin" "-1296 4040 120"
+"targetname" "fishbone"
 }
 // entity 31
 {
 "classname" "monster_fish"
-"origin" "-2000 4032 120"
+"origin" "-1936 3968 120"
+"targetname" "fishbone"
+"target" "pathRF1"
 }
 // entity 32
 {
 "classname" "monster_fish"
-"origin" "-2000 4240 120"
+"origin" "-2032 4240 120"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 33
 {
 "classname" "monster_fish"
-"origin" "-2688 4048 120"
+"origin" "-2744 3992 120"
+"target" "pathRF2"
 }
 // entity 34
 {
 "classname" "monster_fish"
-"origin" "-2688 4256 120"
+"origin" "-2832 4288 120"
+"target" "pathRF2"
 }
 // entity 35
 {
 "classname" "monster_fish"
-"origin" "-3376 4224 120"
+"origin" "-3456 4256 120"
+"target" "pathRF2"
 }
 // entity 36
 {
 "classname" "monster_fish"
-"origin" "-3376 4016 120"
+"origin" "-3400 3992 120"
+"target" "pathRF2"
 }
 // entity 37
 {
 "classname" "monster_fish"
 "origin" "-4160 4000 120"
+"targetname" ""
+"target" "pathRF2"
 }
 // entity 38
 {
 "classname" "monster_fish"
-"origin" "-4160 4208 120"
+"origin" "-4160 4256 120"
+"target" "pathRF1"
 }
 // entity 39
 {
@@ -2679,7 +2701,7 @@
 "origin" "-2016 768 344"
 "angle" "90"
 "targetname" "knightsf1"
-"target" "path1"
+"target" "pathF1"
 }
 // entity 63
 {
@@ -2687,6 +2709,7 @@
 "origin" "-2016 1936 344"
 "angle" "270"
 "targetname" "knightsf1"
+"target" "pathF2"
 }
 // entity 64
 {
@@ -2712,9 +2735,28 @@
 {
 "classname" "path_corner"
 "origin" "-2016 824 328"
+"target" "pathF2"
+"targetname" "pathF1"
 }
 // entity 69
 {
 "classname" "path_corner"
 "origin" "-2016 1880 328"
+"targetname" "pathF2"
+"target" "pathF1"
+}
+// entity 70
+{
+"classname" "path_corner"
+"origin" "-960 4160 -8"
+"target" "pathRF1"
+"targetname" "pathRF2"
+}
+// entity 71
+{
+"classname" "path_corner"
+"origin" "-4120 4128 8"
+"targetname" "pathRF1"
+"spawnflags" "0"
+"target" "pathRF2"
 }

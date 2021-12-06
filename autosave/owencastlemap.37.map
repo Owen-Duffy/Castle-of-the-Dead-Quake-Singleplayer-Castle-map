@@ -4044,18 +4044,21 @@
 "classname" "trigger_counter"
 "origin" "304 824 2136"
 "targetname" "counter2"
+"target" "spawn2"
 }
 // entity 220
 {
 "classname" "trigger_counter"
 "origin" "376 824 2136"
 "targetname" "counter3"
+"target" "spawn3"
 }
 // entity 221
 {
 "classname" "trigger_counter"
 "origin" "440 824 2136"
 "targetname" "counter4"
+"target" "spawn4"
 }
 // entity 222
 {
@@ -4080,7 +4083,7 @@
 "classname" "trigger_relay"
 "origin" "224 856 2136"
 "targetname" "spawn1"
-"target" "spawn2"
+"target" ""
 }
 // entity 226
 {
@@ -4131,155 +4134,171 @@
 "classname" "trigger_teleport"
 "origin" "240 680 2160"
 "targetname" "spawn1"
-"target" "tele1"
+"target" "tele2"
 }
 // entity 235
 {
 "classname" "trigger_teleport"
 "origin" "240 616 2160"
 "targetname" "spawn1"
-"target" "tele1"
+"target" "tele3"
 }
 // entity 236
 {
 "classname" "trigger_teleport"
 "origin" "240 576 2160"
 "targetname" "spawn1"
-"target" "tele1"
+"target" "tele4"
 }
 // entity 237
 {
 "classname" "trigger_teleport"
 "origin" "240 536 2160"
 "targetname" "spawn1"
-"target" "tele1"
+"target" "tele5"
 }
 // entity 238
 {
 "classname" "trigger_teleport"
 "origin" "240 496 2160"
 "targetname" "spawn1"
-"target" "tele1"
+"target" "tele6"
 }
 // entity 239
 {
 "classname" "trigger_teleport"
 "origin" "312 496 2160"
-"target" "tele2"
+"target" "tele6"
+"targetname" "spawn2"
 }
 // entity 240
 {
 "classname" "trigger_teleport"
 "origin" "312 536 2160"
-"target" "tele2"
+"target" "tele5"
+"targetname" "spawn2"
 }
 // entity 241
 {
 "classname" "trigger_teleport"
 "origin" "312 576 2160"
-"target" "tele2"
+"target" "tele4"
+"targetname" "spawn2"
 }
 // entity 242
 {
 "classname" "trigger_teleport"
 "origin" "312 616 2160"
-"target" "tele2"
+"target" "tele3"
+"targetname" "spawn2"
 }
 // entity 243
 {
 "classname" "trigger_teleport"
 "origin" "320 680 2160"
 "target" "tele2"
+"targetname" "spawn2"
 }
 // entity 244
 {
 "classname" "trigger_teleport"
 "origin" "320 728 2160"
-"target" "tele2"
+"target" "tele1"
+"targetname" "spawn2"
 }
 // entity 245
 {
 "classname" "trigger_teleport"
 "origin" "384 728 2160"
-"target" "tele3"
+"target" "tele1"
+"targetname" "spawn3"
 }
 // entity 246
 {
 "classname" "trigger_teleport"
 "origin" "384 680 2160"
-"target" "tele3"
+"target" "tele2"
+"targetname" "spawn3"
 }
 // entity 247
 {
 "classname" "trigger_teleport"
 "origin" "384 632 2160"
 "target" "tele3"
+"targetname" "spawn3"
 }
 // entity 248
 {
 "classname" "trigger_teleport"
 "origin" "384 576 2160"
-"target" "tele3"
+"target" "tele4"
+"targetname" "spawn3"
 }
 // entity 249
 {
 "classname" "trigger_teleport"
 "origin" "384 536 2160"
-"target" "tele3"
+"target" "tele5"
+"targetname" "spawn3"
 }
 // entity 250
 {
 "classname" "trigger_teleport"
 "origin" "384 496 2160"
-"target" "tele3"
+"target" "tele6"
+"targetname" "spawn3"
 }
 // entity 251
 {
 "classname" "trigger_teleport"
-"origin" "464 584 2160"
-"target" "tele4"
+"origin" "456 584 2160"
+"target" "multi"
+"targetname" "spawn4"
 }
 // entity 252
 {
 "classname" "trigger_teleport"
-"origin" "464 632 2160"
-"target" "tele4"
+"origin" "456 632 2160"
+"target" "tele3"
+"targetname" "spawn4"
 }
 // entity 253
 {
 "classname" "trigger_teleport"
-"origin" "464 688 2160"
-"target" "tele4"
+"origin" "456 688 2160"
+"target" "tele2"
+"targetname" "spawn4"
 }
 // entity 254
 {
 "classname" "trigger_teleport"
-"origin" "464 728 2160"
-"target" "tele4"
+"origin" "456 728 2160"
+"target" "tele1"
+"targetname" "spawn4"
 }
 // entity 255
 {
 "classname" "trigger_teleport"
 "origin" "528 720 2160"
-"target" "tele5"
+"target" "tele1"
 }
 // entity 256
 {
 "classname" "trigger_teleport"
 "origin" "528 672 2160"
-"target" "tele5"
+"target" "tele2"
 }
 // entity 257
 {
 "classname" "trigger_teleport"
 "origin" "528 624 2160"
-"target" "tele5"
+"target" "tele3"
 }
 // entity 258
 {
 "classname" "trigger_teleport"
 "origin" "528 576 2160"
-"target" "tele5"
+"target" "tele4"
 }
 // entity 259
 {
@@ -4310,8 +4329,8 @@
 // entity 263
 {
 "classname" "info_teleport_destination"
-"origin" "-1752 1128 368"
-"angle" "0"
+"origin" "-1712 1072 368"
+"angle" "90"
 "targetname" "tele1"
 }
 // entity 264
@@ -4324,22 +4343,22 @@
 // entity 265
 {
 "classname" "info_teleport_destination"
-"origin" "-1752 1336 368"
-"angle" "0"
+"origin" "-1680 1376 368"
+"angle" "270"
 "targetname" "tele3"
 }
 // entity 266
 {
 "classname" "info_teleport_destination"
-"origin" "-1640 1224 368"
+"origin" "-1488 1224 368"
 "angle" "180"
-"targetname" "tele4"
+"targetname" "tele5"
 }
 // entity 267
 {
 "classname" "info_teleport_destination"
-"origin" "-1640 1128 368"
-"angle" "0"
+"origin" "-1568 1080 368"
+"angle" "90"
 "targetname" "tele4"
 }
 // entity 268
@@ -4379,4 +4398,11 @@
 "origin" "-3776 2000 1168"
 "targetname" "tele7"
 "angle" "270"
+}
+// entity 275
+{
+"classname" "info_teleport_destination"
+"origin" "-1568 1376 368"
+"angle" "270"
+"targetname" "tele6"
 }

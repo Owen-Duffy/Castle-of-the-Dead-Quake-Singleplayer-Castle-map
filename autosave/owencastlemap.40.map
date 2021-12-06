@@ -4361,6 +4361,7 @@
 {
 "classname" "trigger_teleport"
 "origin" "344 1448 2240"
+"target" "tele7"
 }
 // entity 260
 {
@@ -4458,7 +4459,8 @@
 }
 // entity 275
 {
-"classname" "trigger_teleport"
+"classname" "trigger_changelevel"
+"map" "start"
 // brush 0
 {
 ( -1888 2552 -304 ) ( -1888 2553 -304 ) ( -1888 2552 -303 ) trigger [ 0 -1 0 -16 ] [ 0 0 -1 0 ] 0 1 1
@@ -4468,4 +4470,9 @@
 ( -1800 2576 -296 ) ( -1799 2576 -296 ) ( -1800 2576 -295 ) trigger [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( -1632 2568 -296 ) ( -1632 2568 -295 ) ( -1632 2569 -296 ) trigger [ 0 1 0 16 ] [ 0 0 -1 0 ] 0 1 1
 }
+}
+// entity 276
+{
+"classname" "info_intermission"
+"origin" "-776 2056 704"
 }

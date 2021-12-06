@@ -4,7 +4,7 @@
 {
 "mapversion" "220"
 "classname" "worldspawn"
-"wad" "C:/Users/otd43/QuakeDev/wads/prototype_1_3.wad;C:/Users/otd43/QuakeDev/wads/id1.wad"
+"wad" "C:/Users/otd43/QuakeDev/wads/prototype_1_3.wad;C:/Users/otd43/QuakeDev/wads/id1.wad;C:/Users/otd43/QuakeDev/wads/devqtex_v2.wad"
 // brush 0
 {
 ( -4304 -16 -336 ) ( -4304 -15 -336 ) ( -4304 -16 -335 ) 128_blood_2 [ 0 -1 0 48 ] [ 0 0 -1 -64 ] 0 1 1
@@ -2279,36 +2279,42 @@
 "classname" "monster_fish"
 "origin" "-4160 4000 -104"
 "target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 16
 {
 "classname" "monster_fish"
 "origin" "-4160 4208 -104"
 "target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 17
 {
 "classname" "monster_fish"
 "origin" "-3504 4080 -104"
 "target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 18
 {
 "classname" "monster_fish"
 "origin" "-3256 4256 -104"
 "target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 19
 {
 "classname" "monster_fish"
 "origin" "-2688 4208 -104"
 "target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 20
 {
 "classname" "monster_fish"
 "origin" "-2504 4056 -104"
 "target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 21
 {
@@ -2328,42 +2334,57 @@
 {
 "classname" "monster_fish"
 "origin" "-1296 3984 -104"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 24
 {
 "classname" "monster_fish"
 "origin" "-1272 4224 -104"
+"targetname" "fishbone"
+"target" "pathRF1"
 }
 // entity 25
 {
 "classname" "monster_fish"
 "origin" "-720 4016 -104"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 26
 {
 "classname" "monster_fish"
 "origin" "-672 4256 -104"
+"targetname" "fishbone"
+"target" "pathRF2"
 }
 // entity 27
 {
 "classname" "monster_fish"
 "origin" "-760 4016 120"
+"targetname" "fishbone"
+"target" "pathRF2"
 }
 // entity 28
 {
 "classname" "monster_fish"
 "origin" "-784 4256 120"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 29
 {
 "classname" "monster_fish"
-"origin" "-1320 4224 120"
+"origin" "-1192 4256 120"
+"target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 30
 {
 "classname" "monster_fish"
 "origin" "-1296 4040 120"
 "targetname" "fishbone"
+"target" "pathRF1"
 }
 // entity 31
 {
@@ -2384,30 +2405,34 @@
 "classname" "monster_fish"
 "origin" "-2744 3992 120"
 "target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 34
 {
 "classname" "monster_fish"
 "origin" "-2832 4288 120"
 "target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 35
 {
 "classname" "monster_fish"
 "origin" "-3456 4256 120"
 "target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 36
 {
 "classname" "monster_fish"
 "origin" "-3400 3992 120"
 "target" "pathRF2"
+"targetname" "fishbone"
 }
 // entity 37
 {
 "classname" "monster_fish"
 "origin" "-4160 4000 120"
-"targetname" ""
+"targetname" "fishbone"
 "target" "pathRF2"
 }
 // entity 38
@@ -2415,6 +2440,7 @@
 "classname" "monster_fish"
 "origin" "-4160 4256 120"
 "target" "pathRF1"
+"targetname" "fishbone"
 }
 // entity 39
 {
@@ -2759,4 +2785,37 @@
 "targetname" "pathRF1"
 "spawnflags" "0"
 "target" "pathRF2"
+}
+// entity 72
+{
+"classname" "trigger_once"
+"target" "fishbone"
+// brush 0
+{
+( -4304 4176 448 ) ( -4304 4177 448 ) ( -4304 4176 449 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 -96 ] 0 1 1
+( -4360 3888 448 ) ( -4360 3888 449 ) ( -4359 3888 448 ) trigger [ 1 0 0 8 ] [ 0 0 -1 -96 ] 0 1 1
+( -4360 4176 224 ) ( -4359 4176 224 ) ( -4360 4177 224 ) trigger [ -1 0 0 -8 ] [ 0 -1 0 0 ] 0 1 1
+( -4272 4200 352 ) ( -4272 4201 352 ) ( -4271 4200 352 ) trigger [ 1 0 0 8 ] [ 0 -1 0 0 ] 0 1 1
+( -4272 4352 456 ) ( -4271 4352 456 ) ( -4272 4352 457 ) trigger [ -1 0 0 -8 ] [ 0 0 -1 -96 ] 0 1 1
+( -4248 4200 456 ) ( -4248 4200 457 ) ( -4248 4201 456 ) trigger [ 0 1 0 0 ] [ 0 0 -1 -32 ] 0 1 1
+}
+}
+// entity 73
+{
+"classname" "trigger_once"
+"target" "fishbone"
+// brush 0
+{
+( -632 4176 448 ) ( -632 4177 448 ) ( -632 4176 449 ) trigger [ 0 -1 0 0 ] [ 0 0 -1 -32 ] 0 1 1
+( -688 3888 448 ) ( -688 3888 449 ) ( -687 3888 448 ) trigger [ 1 0 0 -16 ] [ 0 0 -1 -32 ] 0 1 1
+( -688 4176 224 ) ( -687 4176 224 ) ( -688 4177 224 ) trigger [ -1 0 0 16 ] [ 0 -1 0 0 ] 0 1 1
+( -600 4200 352 ) ( -600 4201 352 ) ( -599 4200 352 ) trigger [ 1 0 0 -16 ] [ 0 -1 0 0 ] 0 1 1
+( -600 4352 456 ) ( -599 4352 456 ) ( -600 4352 457 ) trigger [ -1 0 0 16 ] [ 0 0 -1 -32 ] 0 1 1
+( -576 4200 456 ) ( -576 4200 457 ) ( -576 4201 456 ) trigger [ 0 1 0 0 ] [ 0 0 -1 -32 ] 0 1 1
+}
+}
+// entity 74
+{
+"classname" "path_corner"
+"origin" "-248 4168 232"
 }
