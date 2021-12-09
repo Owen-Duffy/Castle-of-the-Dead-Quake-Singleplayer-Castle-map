@@ -4536,3 +4536,8 @@
 "classname" "item_health"
 "origin" "-2064 1984 320"
 }
+// entity 277
+{
+"classname" "trigger_counter"
+"origin" "-424 1352 392"
+}
