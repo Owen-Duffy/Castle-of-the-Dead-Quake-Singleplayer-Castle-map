@@ -4558,7 +4558,7 @@
 // entity 253
 {
 "classname" "item_spikes"
-"origin" "-2064 672 320"
+"origin" "-2084 708 320"
 }
 // entity 254
 {
@@ -6189,4 +6189,14 @@
 {
 "classname" "item_shells"
 "origin" "-864 -944 384"
+}
+// entity 291
+{
+"classname" "item_spikes"
+"origin" "-4144 3712 864"
+}
+// entity 292
+{
+"classname" "item_spikes"
+"origin" "-2032 672 320"
 }
