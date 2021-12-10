@@ -1789,12 +1789,12 @@
 }
 // brush 198
 {
-( -592 1184 -176 ) ( -592 1185 -176 ) ( -592 1184 -175 ) 128_cyan_3 [ 0 -1 0 0 ] [ 0 0 -1 -32 ] 0 1 1
-( -608 1184 -176 ) ( -608 1184 -175 ) ( -607 1184 -176 ) 128_cyan_3 [ 1 0 0 0 ] [ 0 0 -1 -32 ] 0 1 1
-( -608 1184 -592 ) ( -607 1184 -592 ) ( -608 1185 -592 ) 128_cyan_3 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( -576 1200 -80 ) ( -576 1201 -80 ) ( -575 1200 -80 ) 128_cyan_3 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
-( -576 3872 -160 ) ( -575 3872 -160 ) ( -576 3872 -159 ) 128_cyan_3 [ -1 0 0 0 ] [ 0 0 -1 -32 ] 0 1 1
-( -576 1200 -160 ) ( -576 1200 -159 ) ( -576 1201 -160 ) 128_cyan_3 [ 0 1 0 0 ] [ 0 0 -1 -32 ] 0 1 1
+( -592 1184 112 ) ( -592 1185 112 ) ( -592 1184 113 ) 128_cyan_3 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -608 1184 112 ) ( -608 1184 113 ) ( -607 1184 112 ) 128_cyan_3 [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -608 1184 -304 ) ( -607 1184 -304 ) ( -608 1185 -304 ) 128_cyan_3 [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -576 1200 208 ) ( -576 1201 208 ) ( -575 1200 208 ) 128_cyan_3 [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( -576 3872 128 ) ( -575 3872 128 ) ( -576 3872 129 ) 128_cyan_3 [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -576 1200 128 ) ( -576 1200 129 ) ( -576 1201 128 ) 128_cyan_3 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 // brush 199
 {
@@ -2191,6 +2191,15 @@
 ( -2292 1864 1504 ) ( -2304 1864 1504 ) ( -2304 1880 1504 ) 64_grey_3 [ -1 -1.2246467991473532e-16 0 0 ] [ -1.2246467991473532e-16 1 0 -40 ] 180 1 1
 ( -2292 1884 1168 ) ( -2304 1884 1168 ) ( -2304 1884 1118 ) 64_grey_3 [ -1 -1.2246467991473532e-16 0 0 ] [ 0 0 -1 32 ] 0 1 1
 ( -2292 1864 1168 ) ( -2292 1880 1168 ) ( -2292 1880 1118 ) 64_grey_3 [ -1.2246467991473532e-16 1 0 -40 ] [ 0 0 -1 32 ] 0 1 1
+}
+// brush 243
+{
+( -2928 2720 -16 ) ( -2928 2721 -16 ) ( -2928 2720 -15 ) 128_blue_3 [ -6.123233995736766e-17 -1 0 48 ] [ 0 0 -1 0 ] 0 1 1
+( -2160 2656 -32 ) ( -2161 2656 -32 ) ( -2160 2656 -31 ) 128_blue_3 [ 1 -6.123233995736766e-17 0 -48 ] [ 0 0 -1 0 ] 0 1 1
+( -2160 2656 -304 ) ( -2160 2657 -304 ) ( -2161 2656 -304 ) 128_blue_3 [ -6.123233995736766e-17 -1 0 48 ] [ 1 -6.123233995736766e-17 0 -48 ] 90 1 1
+( -2208 2720 208 ) ( -2209 2720 208 ) ( -2208 2721 208 ) 128_blue_3 [ 6.123233995736766e-17 1 0 -48 ] [ 1 -6.123233995736766e-17 0 -48 ] 270 1 1
+( -2208 2688 -16 ) ( -2208 2688 -15 ) ( -2209 2688 -16 ) 128_blue_3 [ -1 6.123233995736766e-17 0 48 ] [ 0 0 -1 0 ] 0 1 1
+( -592 2656 -32 ) ( -592 2656 -31 ) ( -592 2657 -32 ) 128_blue_3 [ 6.123233995736766e-17 1 0 -48 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
 // entity 1
@@ -3303,19 +3312,136 @@
 {
 "classname" "path_corner"
 "origin" "-3368 -168 -296"
+"targetname" "pathBK1"
+"target" "pathBK2"
 }
 // entity 132
 {
 "classname" "path_corner"
 "origin" "-4008 -168 -296"
+"targetname" "pathBK2"
+"target" "pathBK3"
 }
 // entity 133
 {
 "classname" "path_corner"
 "origin" "-3368 1176 -296"
+"targetname" "pathBK4"
+"target" "pathBK1"
 }
 // entity 134
 {
 "classname" "path_corner"
 "origin" "-4008 1176 -296"
+"target" "pathBK4"
+"targetname" "pathBK3"
+}
+// entity 135
+{
+"classname" "item_armor1"
+"origin" "-1008 848 320"
+"angle" "90"
+}
+// entity 136
+{
+"classname" "monster_hell_knight"
+"origin" "-3680 -176 -280"
+"angle" "180"
+"targetname" "BKgang"
+"target" "pathBK2"
+}
+// entity 137
+{
+"classname" "monster_knight"
+"origin" "-4016 1072 -280"
+"angle" "90"
+"targetname" "BKgang"
+"target" "pathBK3"
+}
+// entity 138
+{
+"classname" "monster_knight"
+"origin" "-3360 1072 -280"
+"angle" "270"
+"targetname" "BKgang"
+"target" "pathBK1"
+}
+// entity 139
+{
+"classname" "path_corner"
+"origin" "-3680 -720 -296"
+"targetname" "pathBS1"
+"target" "pathBS2"
+}
+// entity 140
+{
+"classname" "path_corner"
+"origin" "-1128 -720 -296"
+"targetname" "pathBS2"
+"target" "pathBS1"
+}
+// entity 141
+{
+"classname" "monster_tarbaby"
+"origin" "-3744 -720 -280"
+"targetname" "BSgang"
+"target" "pathBS2"
+}
+// entity 142
+{
+"classname" "monster_tarbaby"
+"origin" "-1064 -720 -280"
+"targetname" "BSgang"
+"target" "pathBS1"
+"angle" "180"
+}
+// entity 143
+{
+"classname" "item_health"
+"origin" "-768 -624 -304"
+}
+// entity 144
+{
+"classname" "item_health"
+"origin" "-768 -848 -304"
+}
+// entity 145
+{
+"classname" "monster_shambler"
+"origin" "-1760 1952 -280"
+"angle" "90"
+}
+// entity 146
+{
+"classname" "path_corner"
+"origin" "-1768 1712 -296"
+}
+// entity 147
+{
+"classname" "path_corner"
+"origin" "-1768 944 -296"
+}
+// entity 148
+{
+"classname" "path_corner"
+"origin" "-1384 1456 -296"
+"angle" "90"
+}
+// entity 149
+{
+"classname" "path_corner"
+"origin" "-2152 1456 -296"
+"angle" "90"
+}
+// entity 150
+{
+"classname" "path_corner"
+"origin" "-1384 1200 -296"
+"angle" "90"
+}
+// entity 151
+{
+"classname" "path_corner"
+"origin" "-2152 1200 -296"
+"angle" "90"
 }
