@@ -4,7 +4,7 @@
 {
 "mapversion" "220"
 "classname" "worldspawn"
-"wad" "C:/Users/otd43/QuakeDev/wads/devqtex_v2.wad;C:/Users/385579/QuakeEditor/QuakeDev/wads/id1.wad;../wads/prototype_1_3.wad"
+"wad" "C:/Users/otd43/QuakeDev/wads/prototype_1_3.wad;C:/Users/otd43/QuakeDev/wads/id1.wad;C:/Users/otd43/QuakeDev/wads/devqtex_v2.wad"
 // brush 0
 {
 ( -4304 0 -336 ) ( -4304 1 -336 ) ( -4304 0 -335 ) 128_blood_2 [ 0 -1 0 64 ] [ 0 0 -1 -64 ] 0 1 1
@@ -6193,9 +6193,4 @@
 ( -3408 1348 440 ) ( -3408 1348 441 ) ( -3409 1348 440 ) 128_blood_2 [ -1 6.123233995736766e-17 0 112 ] [ 0 0 -1 24 ] 0 1 1
 ( -2912 1340 424 ) ( -2912 1340 425 ) ( -2912 1341 424 ) 128_blood_2 [ 6.123233995736766e-17 1 0 -44 ] [ 0 0 -1 24 ] 0 1 1
 }
-}
-// entity 290
-{
-"classname" "item_shells"
-"origin" "-864 -944 384"
 }
