@@ -10707,3 +10707,43 @@
 "origin" "-3912 936 920"
 "light" "120"
 }
+// entity 702
+{
+"classname" "light"
+"origin" "-1832 3656 616"
+}
+// entity 703
+{
+"classname" "light"
+"origin" "-1160 3656 616"
+}
+// entity 704
+{
+"classname" "light"
+"origin" "-1256 3080 520"
+}
+// entity 705
+{
+"classname" "light"
+"origin" "-1896 3080 520"
+}
+// entity 706
+{
+"classname" "light"
+"origin" "-2840 728 1400"
+}
+// entity 707
+{
+"classname" "light"
+"origin" "-4168 728 1400"
+}
+// entity 708
+{
+"classname" "light"
+"origin" "-4168 -1016 1400"
+}
+// entity 709
+{
+"classname" "light"
+"origin" "-2840 -1016 1400"
+}

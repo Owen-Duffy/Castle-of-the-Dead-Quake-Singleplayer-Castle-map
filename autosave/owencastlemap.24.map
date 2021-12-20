@@ -4,7 +4,7 @@
 {
 "mapversion" "220"
 "classname" "worldspawn"
-"wad" "C:/Users/otd43/QuakeDev/wads/id1.wad;C:/Users/otd43/QuakeDev/wads/devqtex_v2.wad;../../../wads/rogue.wad;../../../wads/hipnotic.wad"
+"wad" "C:/Users/otd43/QuakeDev/wads/id1.wad;C:/Users/otd43/QuakeDev/wads/devqtex_v2.wad;../../../wads/rogue.wad;../../../wads/hipnotic.wad;../../../wads/prototype_1_3.wad"
 // brush 0
 {
 ( -4304 0 -336 ) ( -4304 1 -336 ) ( -4304 0 -335 ) cop1_3 [ 0 -1 0 64 ] [ 0 0 -1 -64 ] 0 1 1

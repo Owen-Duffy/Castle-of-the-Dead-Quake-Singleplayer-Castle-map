@@ -5195,7 +5195,7 @@
 // entity 169
 {
 "classname" "monster_knight"
-"origin" "224 536 2152"
+"origin" "224 552 2152"
 "target" ""
 "targetname" ""
 "spawnflags" "0"
@@ -5219,7 +5219,7 @@
 // entity 172
 {
 "classname" "monster_knight"
-"origin" "224 616 2152"
+"origin" "224 664 2152"
 "target" ""
 "targetname" ""
 "spawnflags" "0"
@@ -5227,7 +5227,7 @@
 // entity 173
 {
 "classname" "monster_knight"
-"origin" "224 576 2152"
+"origin" "224 608 2152"
 "target" ""
 "targetname" ""
 "spawnflags" "0"
@@ -5251,7 +5251,7 @@
 // entity 176
 {
 "classname" "monster_hell_knight"
-"origin" "224 728 2152"
+"origin" "224 792 2152"
 "target" ""
 "targetname" ""
 "spawnflags" "0"
@@ -5412,35 +5412,35 @@
 // entity 198
 {
 "classname" "trigger_teleport"
-"origin" "224 728 2152"
+"origin" "224 792 2152"
 "targetname" "spawn1"
 "target" "tele1"
 }
 // entity 199
 {
 "classname" "trigger_teleport"
-"origin" "224 680 2152"
+"origin" "224 728 2152"
 "targetname" "spawn1"
 "target" "tele2"
 }
 // entity 200
 {
 "classname" "trigger_teleport"
-"origin" "240 616 2160"
+"origin" "240 664 2160"
 "targetname" "spawn1"
 "target" "tele3"
 }
 // entity 201
 {
 "classname" "trigger_teleport"
-"origin" "240 576 2160"
+"origin" "240 608 2160"
 "targetname" "spawn1"
 "target" "tele4"
 }
 // entity 202
 {
 "classname" "trigger_teleport"
-"origin" "240 536 2160"
+"origin" "240 552 2160"
 "targetname" "spawn1"
 "target" "tele5"
 }
@@ -5909,7 +5909,7 @@
 // entity 261
 {
 "classname" "monster_knight"
-"origin" "224 680 2152"
+"origin" "224 728 2152"
 "target" ""
 "targetname" ""
 "spawnflags" "0"
