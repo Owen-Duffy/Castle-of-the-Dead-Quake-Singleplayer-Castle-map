@@ -1,3 +1,3 @@
-Quake-Singleplayer-Castle-map
+Castle of the Dead Quake-Singleplayer-Castle-map
 
 This will be my Quake Singleplayer map that I am developing
